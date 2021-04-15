@@ -1,4 +1,3 @@
-
 /* =============
     Mixins
 ============= */
@@ -142,10 +141,3 @@ html {
 // @include xl{
 //     grid-template-columns: repeat(4, 1fr);
 // }
-
-
-@mixin xl-hero-2 {
-    @media (min-width: #{$screen-xl-hero-2-min}) {
-        @content;
-    }
-}
