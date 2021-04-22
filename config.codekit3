@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -51,12 +59,22 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-2\/Hero 2.jpg" : {
+    "\/deploy\/img\/header\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/header\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/hero-2\/hero-2.jpg" : {
       "ft" : 16384,
       "iS" : 112828,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/Hero 2.jpg",
+      "oAP" : "\/deploy\/img\/hero-2\/hero-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -72,7 +90,7 @@
       "oAP" : "\/deploy\/img\/hero\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -83,19 +101,19 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/history\/hero.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/skills\/grid-bot.jpg" : {
+    "\/deploy\/img\/skills\/robot.jpg" : {
       "ft" : 16384,
       "iS" : 76676,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/skills\/grid-bot.jpg",
+      "oAP" : "\/deploy\/img\/skills\/robot.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

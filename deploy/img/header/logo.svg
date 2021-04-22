@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="39px" viewBox="0 0 63 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-6.000000, -16.000000)">
+            <g id="icon" transform="translate(7.000000, 16.000000)">
+                <rect id="Rectangle" fill="#1D1C21" x="13.6883117" y="13.5306122" width="37.8441558" height="24.6734694"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="28.987013" y="33.4285714" width="8.05194805" height="2.78571429"></rect>
+                <ellipse id="Oval" fill="#FFFFFF" cx="22.9480519" cy="24.2755102" rx="5.63636364" ry="5.57142857"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="41.4675325" cy="24.2755102" rx="5.63636364" ry="5.57142857"></ellipse>
+                <rect id="Rectangle" fill="#1D1C21" x="51.5324675" y="19.1020408" width="3.22077922" height="11.1428571"></rect>
+                <rect id="Rectangle-Copy" fill="#1D1C21" x="10.4675325" y="19.1020408" width="3.22077922" height="11.1428571"></rect>
+                <line x1="53.9480519" y1="23.9972497" x2="59.987013" y2="4.37755102" id="Line" stroke="#1D1C21" stroke-width="1.2" stroke-linecap="square"></line>
+                <ellipse id="Oval" fill="#1D1C21" cx="59.987013" cy="2.78571429" rx="2.01298701" ry="1.98979592"></ellipse>
+                <line x1="5.34601858" y1="24.1866975" x2="11.2572157" y2="4.52774881" id="Line" stroke="#1D1C21" stroke-width="1.2" stroke-linecap="square" transform="translate(8.301617, 14.357223) rotate(-34.000000) translate(-8.301617, -14.357223) "></line>
+                <ellipse id="Oval" fill="#1D1C21" transform="translate(4.428571, 2.785714) rotate(-34.000000) translate(-4.428571, -2.785714) " cx="4.42857143" cy="2.78571429" rx="2.00576467" ry="1.99707726"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
