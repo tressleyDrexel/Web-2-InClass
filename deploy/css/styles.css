@@ -352,6 +352,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -385,3 +393,162 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
+/* =============
+    Hero
+============= */
+#hero img {
+  max-width: 100%;
+}
+
+/* =============
+    History
+============= */
+#history {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". history .";
+}
+@media (min-width: 1024px) {
+  #history {
+    grid-template-columns: auto 60% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #history {
+    grid-template-columns: auto 800px auto;
+  }
+}
+#history > div {
+  grid-area: history;
+}
+
+/* =============
+    Skills
+============= */
+@media (min-width: 1200px) {
+  #skills {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". skills-content .";
+  }
+}
+@media (min-width: 1024px) {
+  #skills > div {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 1200px) {
+  #skills > div {
+    grid-area: skills-container;
+  }
+}
+#skills > div aside img {
+  width: 100%;
+}
+#skills > div #skills-content {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". skills .";
+}
+#skills > div #skills-content > div {
+  grid-area: skills;
+}
+
+/* =============
+    Hero-2
+============= */
+#hero-2 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: "hero-2 hero-2 hero-2";
+}
+@media (min-width: 1200px) {
+  #hero-2 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#hero-2 img {
+  grid-area: hero-2;
+  max-width: 100%;
+}
+
+/* =============
+    Skynet
+============= */
+#skynet {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". skynet .";
+}
+#skynet > div {
+  grid-area: skynet;
+}
+#skynet > div ul {
+  display: grid;
+  gap: 16px;
+  grid-template-areas: "gallery-7" "gallery-1" "gallery-6" "gallery-3";
+}
+@media (min-width: 768px) {
+  #skynet > div ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "gallery-1 gallery-2" "gallery-1 gallery-7" "gallery-3 gallery-6";
+  }
+}
+@media (min-width: 1024px) {
+  #skynet > div ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "gallery-1 gallery-2 gallery-3" "gallery-1 gallery-7 gallery-4" "gallery-6 gallery-5 gallery-4";
+  }
+}
+#skynet > div ul li img {
+  width: 100%;
+}
+#skynet > div ul #gallery-1 {
+  grid-area: gallery-1;
+}
+#skynet > div ul #gallery-2 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #skynet > div ul #gallery-2 {
+    display: list-item;
+    grid-area: gallery-2;
+  }
+}
+#skynet > div ul #gallery-3 {
+  grid-area: gallery-3;
+}
+#skynet > div ul #gallery-4 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #skynet > div ul #gallery-4 {
+    display: list-item;
+    grid-area: gallery-4;
+  }
+}
+#skynet > div ul #gallery-5 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #skynet > div ul #gallery-5 {
+    display: list-item;
+    grid-area: gallery-5;
+  }
+}
+#skynet > div ul #gallery-6 {
+  grid-area: gallery-6;
+}
+#skynet > div ul #gallery-7 {
+  grid-area: gallery-7;
+}
