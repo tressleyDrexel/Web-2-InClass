@@ -1,12 +1,38 @@
 /* =============
     Footer
 ============= */
-footer{
+footer {
+    background-color: $yellow;
     display: grid;
-    grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
+    grid-template-columns: 10px auto 10px;
 
-    >div{
+    >div {
         grid-area: footer;
+
+        h1 {
+
+            span {
+                color: $white;
+            }
+        }
+
+        ul {
+
+            li {
+           
+
+                a:link,
+                a:visited {
+                    color: $black;
+                    transition: 0.25s;
+                }
+
+                a:hover,
+                a:active {
+                    color: $white;
+                }
+            }
+        }
     }
 }

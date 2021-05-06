@@ -13,9 +13,20 @@ header {
 		@include xl {
 			grid-area: header;
 		}
+		
+		display:  grid;
+		grid-template-columns: 20% auto;
+
+		@include md{
+			grid-template-columns: 60% auto;
+		}
 
 		section {
 			padding: 15px;
+
+			@include md{
+				display: none;
+			}
 
 			img {
 				width: 96px;
@@ -27,6 +38,18 @@ header {
 				@include lg {
 					width: 150px;
 				}
+			}
+		}
+
+		nav{
+
+
+
+		}
+
+		aside{
+			button{
+				background-color: $yellow;
 			}
 		}
 	}

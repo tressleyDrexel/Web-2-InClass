@@ -15,5 +15,11 @@
     }
     >div{
         grid-area: history;
+
+        article{
+            h1{
+                color: $yellow;
+            }
+        }
     }
 }

@@ -71,7 +71,7 @@
     },
     "\/deploy\/img\/hero-2\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 146921,
+      "iS" : 247748,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero-2\/hero.jpg",
@@ -84,7 +84,7 @@
     },
     "\/deploy\/img\/hero\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 337746,
+      "iS" : 338321,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero\/hero.jpg",
@@ -108,9 +108,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/history\/history.jpg" : {
+      "ft" : 16384,
+      "iS" : 18964,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/history.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/skills\/robot.jpg" : {
       "ft" : 16384,
-      "iS" : 122546,
+      "iS" : 118148,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skills\/robot.jpg",
@@ -123,7 +136,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-1.jpg" : {
       "ft" : 16384,
-      "iS" : 163011,
+      "iS" : 159219,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-1.jpg",
@@ -136,7 +149,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-2.jpg" : {
       "ft" : 16384,
-      "iS" : 47796,
+      "iS" : 89774,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-2.jpg",
@@ -149,7 +162,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-3.jpg" : {
       "ft" : 16384,
-      "iS" : 100411,
+      "iS" : 136768,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-3.jpg",
@@ -162,7 +175,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-4.jpg" : {
       "ft" : 16384,
-      "iS" : 170027,
+      "iS" : 181356,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-4.jpg",
@@ -175,7 +188,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-5.jpg" : {
       "ft" : 16384,
-      "iS" : 70439,
+      "iS" : 43962,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-5.jpg",
@@ -188,7 +201,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-6.jpg" : {
       "ft" : 16384,
-      "iS" : 115782,
+      "iS" : 136159,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-6.jpg",

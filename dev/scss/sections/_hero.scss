@@ -2,5 +2,12 @@
     Hero 
 ============= */
 #hero{
-    img{width: 100%;}
+    background-image: url('../img/hero/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+
+    @include md {
+        height: 683px;
+    }
 }
