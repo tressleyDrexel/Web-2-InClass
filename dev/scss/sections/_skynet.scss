@@ -1,0 +1,86 @@
+/* =============
+    Skynet
+============= */
+#skynet{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". skynet .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div{
+        grid-area: skynet;
+
+        ul{
+            display: grid;
+            gap: 16px;
+            grid-template-areas: "gallery-7"
+            "gallery-1"
+            "gallery-6"
+            "gallery-3";
+
+            @include md{
+                grid-template-areas: "gallery-1 gallery-3"
+                                    "gallery-1 gallery-7"
+                                    "gallery-5 gallery-6";
+                grid-template-columns: 50% auto;
+            }
+
+            @include lg{
+                grid-template-areas: "gallery-1 gallery-2 gallery-3"
+                                    "gallery-1 gallery-7 gallery-4"
+                                    "gallery-5 gallery-6 gallery-4";
+                grid-template-columns: repeat(3, 1fr);
+            }
+    
+            li{
+                img{
+                    width: 100%;
+                }
+            }
+
+            #gallery-1{
+                grid-area: gallery-1;
+            }
+
+            #gallery-2{
+                display: none;
+                @include lg{
+                    display: list-item;
+                    grid-area: gallery-2;
+                }
+            }
+
+            #gallery-3{
+                grid-area: gallery-3;
+            }
+
+            #gallery-4{
+                display: none;
+                @include lg{
+                    display: list-item;
+                    grid-area: gallery-4;
+                }
+            }
+
+            #gallery-5{
+                display: none;
+                
+                @include md{
+                    display: list-item;
+                    grid-area: gallery-5;
+                }
+            }
+
+            #gallery-6{
+                grid-area: gallery-6;
+            }
+
+            #gallery-7{
+                grid-area: gallery-7;
+            }
+        }
+    }
+}

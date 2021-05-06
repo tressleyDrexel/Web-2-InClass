@@ -1,0 +1,43 @@
+/* =============
+    Skills
+============= */
+#skills{
+
+    @include xl{
+        display: grid;
+            grid-template-columns: auto 1200px auto;
+            grid-template-areas: ". skills-container .";
+    }
+
+    
+    >div{
+
+        @include lg{
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+
+        @include xl{
+            grid-area: skills-container;
+        }
+    
+        aside{
+            img{
+                width: 100%;
+            }
+        }
+    
+        #skills-content{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". skills .";
+    
+            
+            >div{
+                grid-area: skills;
+            }
+        }
+    }
+
+    
+}

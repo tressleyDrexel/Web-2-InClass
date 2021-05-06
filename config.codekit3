@@ -69,12 +69,12 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero-2\/hero-2.jpg" : {
+    "\/deploy\/img\/hero-2\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 112828,
+      "iS" : 146921,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2\/hero-2.jpg",
+      "oAP" : "\/deploy\/img\/hero-2\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -82,35 +82,35 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero\/Hero.jpg" : {
+    "\/deploy\/img\/hero\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 174790,
+      "iS" : 337746,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero\/Hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/history\/hero.png" : {
-      "ft" : 32768,
-      "iS" : 27906,
+    "\/deploy\/img\/history\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 15971,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/history\/hero.png",
+      "oAP" : "\/deploy\/img\/history\/hero.jpg",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/skills\/robot.jpg" : {
       "ft" : 16384,
-      "iS" : 76676,
+      "iS" : 122546,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skills\/robot.jpg",
@@ -123,7 +123,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-1.jpg" : {
       "ft" : 16384,
-      "iS" : 70885,
+      "iS" : 163011,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-1.jpg",
@@ -136,7 +136,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-2.jpg" : {
       "ft" : 16384,
-      "iS" : 25130,
+      "iS" : 47796,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-2.jpg",
@@ -149,7 +149,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-3.jpg" : {
       "ft" : 16384,
-      "iS" : 41368,
+      "iS" : 100411,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-3.jpg",
@@ -162,7 +162,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-4.jpg" : {
       "ft" : 16384,
-      "iS" : 73846,
+      "iS" : 170027,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-4.jpg",
@@ -175,7 +175,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-5.jpg" : {
       "ft" : 16384,
-      "iS" : 26651,
+      "iS" : 70439,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-5.jpg",
@@ -188,7 +188,7 @@
     },
     "\/deploy\/img\/skynet\/gallery-6.jpg" : {
       "ft" : 16384,
-      "iS" : 44889,
+      "iS" : 115782,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/skynet\/gallery-6.jpg",
@@ -303,8 +303,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -312,8 +312,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -457,6 +457,76 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_hero-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_history.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_history.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_skills.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_skills.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_skynet.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_skynet.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -465,8 +535,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
