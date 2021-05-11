@@ -5,6 +5,13 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". skynet .";
+    @include md {
+        padding: 54px 0;
+    }
+
+    @include lg {
+        padding: 100px 0;
+    }
 
     @include xl{
         grid-template-columns: auto 1200px auto;
@@ -87,8 +94,19 @@
             #gallery-7 {
                 align-items: center;
                 color: $yellow;
+                display: flex;
+                font-family: 'Pacifico', cursive;
                 grid-area: gallery-7;
-          
+                justify-content: center;
+    
+                h1 {
+                    font-size: rem-calc(43);
+                    font-weight: 400;
+    
+                    @include md {
+                        font-size: rem-calc(46);
+                    }
+                }
             }
         }
     }

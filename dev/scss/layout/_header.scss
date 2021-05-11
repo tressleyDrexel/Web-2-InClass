@@ -2,55 +2,75 @@
     Header
 ============= */
 header {
-	display: grid;
+    background-color: $white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 
-	@include xl {
-		grid-template-areas: ". header .";
-		grid-template-columns: auto 1200px auto;
-	}
+    >div {
+        display: grid;
+        grid-template-areas: 
+        "burger survival"
+        "nav nav";
+        grid-template-columns: 20% auto;
 
-	>div {
-		@include xl {
-			grid-area: header;
-		}
-		
-		display:  grid;
-		grid-template-columns: 20% auto;
+        @include lg {
+            grid-template-areas: "nav survival";
+            grid-template-columns: 20% auto;
+        }
 
-		@include md{
-			grid-template-columns: 60% auto;
-		}
+        #button-container {
+            grid-area: survival;
+            padding: 10px;
+            text-align: right;
 
-		section {
-			padding: 15px;
+           button {
+                background-color: $yellow;
+                border-radius: 23px;
+                color: $black;
+                display: inline-block;
+                font-size: rem-calc(18);
+                font-weight: 700;
+                padding: 10px 20px;
+                border: none;
+                transition: 0.25s;
 
-			@include md{
-				display: none;
-			}
+                &:hover {
+                    background-color: $black;
+                    color: $white;
+                }
+            }
 
-			img {
-				width: 96px;
+            
+        }
 
-				@include md {
-					width: 123px;
-				}
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            padding: 10px;
 
-				@include lg {
-					width: 150px;
-				}
-			}
-		}
+            @include lg {
+                display: none !important;
+            }
 
-		nav{
+            i {
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
+        }
 
+        #nav-container {
+            background-color: $charcoal;
+            display: none;
+            grid-area: nav;
+            padding: 20px 10px 10px;
 
-
-		}
-
-		aside{
-			button{
-				background-color: $yellow;
-			}
-		}
-	}
+            @include lg {
+                background-color: $white;
+                display: block !important;
+            }
+        }
+    }
 }
